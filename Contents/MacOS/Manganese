@@ -1,0 +1,2 @@
+#!/bin/sh
+open -a Chromium --args "$CHROMIUM_USER_FLAGS" "$@" &
