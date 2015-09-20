@@ -2,6 +2,8 @@
 
 Wrap Chromium with user flags.
 
+**NOTE**: currently broken in Yosemite (`.launchd.conf` support was removed)
+
 ## Usage
 
 1. Create a `~/.launchd.conf` containing a `CHROMIUM_USER_FLAGS` property with
