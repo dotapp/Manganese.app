@@ -7,13 +7,15 @@ Wrap Chromium with user flags.
 1. Create a `~/.launchd.conf` containing a `CHROMIUM_USER_FLAGS` property with
    the desired values, e.g.:
 
-        cat << EOF >> ~/.launchd.conf
-        setenv CHROMIUM_USER_FLAGS "--no-referrers"
-        EOF
+```shell
+cat << EOF >> ~/.launchd.conf
+setenv CHROMIUM_USER_FLAGS "--no-referrers"
+EOF
+```
 
 ## Author
 
-© 2013 Tom Vincent <http://tlvince.com/contact>
+© 2015 Tom Vincent <https://tlvince.com/contact>
 
 ## License
 
